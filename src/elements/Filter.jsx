@@ -39,7 +39,7 @@ export default function Filter({ onFilter }) {
             />
           </Form.Group>
           <Form.Group as={Col} controlId="status">
-            <Form.Label>Status</Form.Label>
+            <Form.Label>Priority</Form.Label>
             <Form.Select
               value={priority}
               onChange={(e) => setPriority(e.target.value)}
