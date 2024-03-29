@@ -44,7 +44,7 @@ A task tracker application built using React and Vite, where users can add, edit
    npm i
    ```
 4. Run the app
-  ```bash
-  npm run dev
-  ```
+   ```bash
+   npm run dev
+   ```
 
