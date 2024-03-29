@@ -82,18 +82,7 @@ export default function AddNew({ tasksData, setTasks }) {
                 required
               />
             </Form.Group>
-            <Row className="mb-3">
-              <Form.Group as={Col} controlId="formGridTeam">
-                <Form.Label>Team</Form.Label>
-                <Form.Control
-                  type="text"
-                  placeholder="Team Name"
-                  name="team"
-                  value={formData.team}
-                  onChange={handleChange}
-                />
-              </Form.Group>
-            </Row>
+           
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridAssignee">
                 <Form.Label>Assignee</Form.Label>
